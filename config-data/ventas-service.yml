@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/ZeroXD219/pea4.git
+          uri: https://github.com/ZeroXD219/pea3.git
           searchPaths: config-data
           username: andyllamodiaz@gmail.com
           password: 123Andy123@
