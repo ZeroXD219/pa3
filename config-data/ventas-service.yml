@@ -1,16 +1,17 @@
 server:
   port: 8085
-
+  
 spring:
-  jpa:
-    hibernate:
-      ddl-auto: none 
-    properties:
-     hibernate:
-     dialect: org.hibernate.dialect.MySQL5Dialect
-     
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/pea3
-    username: root
-    password: 123andi123
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ZeroXD219/pea4.git
+          searchPaths: config-data
+          username: andyllamodiaz@gmail.com
+          password: 123Andy123@
+          default-label: "main"
+  security:
+    user:
+      name: io
+      password: 123
