@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: ventas-service
+  cloud:
+    config:
+      uri: http://localhost:8085
+      username: io
+      password: 123
+  boot:
+    admin:
+      client:
+        url: http://localhost:8086
